@@ -4,11 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Projects come and go, yet the motivation remains.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Curious by nature, I switch between ideas and try new technologies.
+This web site will help me steady and present the creations :)
 
 <!-- ### Contact me
 
