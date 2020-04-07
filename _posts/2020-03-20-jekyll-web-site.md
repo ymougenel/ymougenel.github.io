@@ -1,13 +1,16 @@
 ---
 layout: post
-title: Let's start a web site
+title: A new Jekyll blog!
 excerpt_separator: <!--more-->
 tags: [jekyll, github]
 ---
 
-Hello world! Let's build a web page with jekyll for all my projects and blogs.
+This blog will present all past, current and future projects.
+
 <!--more-->
-Link: https://github.com/ymougenel/ymougenel.github.io
+Made with the static site generator Jekyll, this web site is hosted [on Github](https://github.com/ymougenel/ymougenel.github.io).
+
+A DNS setting is set to use my custom domain: https://ymougenel.site
 
 ## Technical environment
 [Jekyll](https://jekyllrb.com/) with [Jekyll-now theme](https://github.com/barryclark/jekyll-now)
