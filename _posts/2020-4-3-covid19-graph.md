@@ -14,7 +14,7 @@ Link: [https://ymougenel.tech/covid19/graph/confirmed](https://ymougenel.tech/co
 
 Incoming features:
 * Abscissa based on the number of days this the first case
-* Logarithm ordinate available (propably by default)
+* Logarithm ordinate available (probably by default)
 * New cases chart
 * Mobile display
 
