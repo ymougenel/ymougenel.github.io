@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Covid19 Graph
+title: Covid19 Graph (work in progress)
 excerpt_separator: <!--more-->
 tags: [dataviz, angular, chartJS]
 ---
