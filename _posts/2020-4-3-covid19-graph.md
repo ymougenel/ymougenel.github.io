@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Covid19 Graph (work in progress)
+title: Covid19 Graph
 excerpt_separator: <!--more-->
 tags: [dataviz, angular, chartJS]
 ---
@@ -12,10 +12,10 @@ This graph helps me to keep track of the spreading in regions rarely displayed (
 
 Link: [https://ymougenel.tech/covid19/graph/confirmed](https://ymougenel.tech/covid19/graph/confirmed)
 
-Incoming features:
-* Abscissa based on the number of days this the first case
-* Logarithm ordinate available (probably by default)
-* New cases chart
-* Mobile display
-
-
+Features:
+- [x] Evolution chart
+- [x] Country selection
+- [x] New cases chart
+- [x] Mobile display
+- [ ] Abscissa based on the number of days this the first case
+- [ ] Logarithm ordinate available (probably by default)
