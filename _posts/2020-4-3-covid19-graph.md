@@ -10,7 +10,7 @@ An humble project, aiming at displaying daily updated data regarding the disease
 
 This graph helps me to keep track of the spreading in regions rarely displayed (Mayotte & Réunion).
 
-Link: [https://ymougenel.tech/covid19/graph/confirmed](http://149.202.162.220/covid19/graph/confirmed)
+Link: [https://ymougenel.tech/covid19/graph/confirmed](http://ymougenel.tech/covid19/graph/confirmed)
 
 Features:
 - [x] Evolution chart
