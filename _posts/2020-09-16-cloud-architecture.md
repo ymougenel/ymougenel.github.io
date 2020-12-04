@@ -19,14 +19,16 @@ Details:
 
 ### Load Balancer
 
-HA-Proxy serves:
+HA-Proxy:
 * Load balance between OVH instances
 * Dispatch application's Requests
 * Handles SSL termination
 
 ### Let's encrypt
 Open certificate authority: Montly generates a new SSL certificate.
-[configuration with ha](https://serversforhackers.com/c/letsencrypt-with-haproxy)
+
+Configuration: [Let's encrypt  with HA-Proxy](https://serversforhackers.com/c/letsencrypt-with-haproxy)
 
 ### Keycloak
-Authentification server for applications
+Authentification server for applications  
+[-> Github project](https://github.com/ymougenel/my-keycloak/tree/develop)
