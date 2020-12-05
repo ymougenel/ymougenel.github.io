@@ -23,7 +23,7 @@ Since the input/output are handled as plain text, challengers are free to use th
 # 2019
 Last year I only learned about the event on the 7th. I wanted to learn Python3 for a long time, therefore AoC gave me a good reason to practice.  
 As a Java programmer, python ObjectOriented programming and unitTest were familiar (Junit is quite similar). Numpi on the other hand was quite a discovery!
-**18/50**:start:
+**19/50**:start:
 # 2020
 ## Stack
 This year I will reiterate with Python! I learned few things from last year and hope it will go smoothly.
@@ -32,7 +32,7 @@ This year I will reiterate with Python! I learned few things from last year and 
 ## Team
 
 
-## DAY1: Report Repair
+## Day1: Report Repair
 ### Puzzle description ([more](https://adventofcode.com/2020/day/1))
 Find 2 (then 3) integers from a list, where the sum is equal to 2020.
 
@@ -93,7 +93,7 @@ The second part on the other hand requires regex (which I have never tried yet o
 
 After browsing few articles on the subject, I came up with this:
 ```python
-hair_color = re.compile(r'#[a-z0-9]{6}')
+hair_color = re.compile(r'#[a-f0-9]{6}')
 passport_id = re.compile(r'[0-9]{9}')
 four_digits =  re.compile(r'[0-9]{4}')
 ```
@@ -107,3 +107,18 @@ Almost 300 passports, with 8 fields each... unit Test it will be, priority on th
 Bingo! It was indeed the regex: they were to permissive (allowed dates like 'any_prefix_2020_&"').  
 `re.compile(r'[0-9]{4}') -> re.compile(r'^[0-9]{4}$')`  
 Well it happens when we write regex without being fully awake... well at least I now have a good test coverage :chart_with_upwards_trend: :+1:
+
+-> [see solution](https://github.com/ymougenel/advent-of-code/blob/master/2020/day4/)
+-> [see solution](https://github.com/ymougenel/advent-of-code/blob/master/2020/day4/)
+
+## Day5: Binary Boarding(+1h)
+### Puzzle description ([more](https://adventofcode.com/2020/day/5))
+We will now filter plane tickets
+Of course the seat position are not B13 but a string (ex: __FBFBBFFRLR__). 
+The first 7 letters indicate the seat row, and the last 3 indicate the column.
+
+From 128 rows, the first letter 'F' will tell to keep the first half (0-63). The following 'B' tells to look at the last half of the previous selection, so from seat  (32 to 63)... etc
+
+### Resolution
+From the bad experience from the day before, I went directly with Test Driving Development. Except from a substring range bug, and few interruptions on a saturday, it took some time but went well.  
+-> [see solution](https://github.com/ymougenel/advent-of-code/blob/master/2020/day5/)
