@@ -4,26 +4,29 @@ title: Advent of Code 2020!
 excerpt_separator: <!--more-->
 tags: [algorithm, events, python3]
 ---
-
+Advent of code (AoC) is a coding event taking place every year on december. From the 1st of December to the 25th, a new coding puzzle is released daily.
 [Advent of code 2020](https://adventofcode.com/2020/about) starts today!  
-__Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.__
+Advent of code (AoC) is a coding event taking place every year on december. From the 1st of December to the 25th, a new puzzle is released daily.
+
 
 I am joining the event for the second time, and will write a bit about the coding journey...
 <!--more-->
 
 # The event
 
-Advent of code (AoC) is a coding event taking place every year on december. From the 1st of December to the 25th, a new puzzle is released daily.
+*Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.*
 
 Each puzzle comes with a description, inputs, and is made of 2 parts.
-Resolving a part unlock a :star: -> there are **50 stars to collect**.
+Resolving a part unlock a star -> there are **50 stars to collect**.
 
 The complexity goes crescendo: puzzles get harder every day.
 Since the input/output are handled as plain text, challengers are free to use the language of their choice.
 # 2019
 Last year I only learned about the event on the 7th. I wanted to learn Python3 for a long time, therefore AoC gave me a good reason to practice.  
 As a Java programmer, python ObjectOriented programming and unitTest were familiar (Junit is quite similar). Numpi on the other hand was quite a discovery!
-**19/50**:start:
+
+Conclusion **19/50**Stars
+
 # 2020
 ## Stack
 This year I will reiterate with Python! I learned few things from last year and hope it will go smoothly.
@@ -56,15 +59,16 @@ Find from a password list how many validates the policy
 
 ### Resolution (~20 min)
 The first part only consists on splitting the input and counting the occurrences.
-The second part took me longer since I misread the description... 15min lost on trying without an XOR condition... well lesson learned. :no_mouth:
+The second part took me longer since I misread the description... 15min lost on trying without an XOR condition... well lesson learned.
 
 -> [see solution](https://github.com/ymougenel/advent-of-code/blob/master/2020/day2/main.py)
 
-## Day3: Toboggan Trajectory (-10min)
+
+## Day3: Toboggan Trajectory (-10min)
 ### Puzzle description ([more](https://adventofcode.com/2020/day/2))
 A map is given as a matrix, each '#' represents a tree. 
 ![list comprehension first implem](../assets/advent_of_code2020/day3_2020.png)
-_*Note_* The arrow means that the columns repeats themselves infinitely (seems complicated, I will deal with it later)
+*Note:* The arrow means that the columns repeats themselves infinitely (seems complicated, I will deal with it later)
 Given an initial position and direction, how many tree will we encounter.
 
 ### Resolution
@@ -98,7 +102,7 @@ passport_id = re.compile(r'[0-9]{9}')
 four_digits =  re.compile(r'[0-9]{4}')
 ```
 ... It compiles, passes the example inputs, yet the final answer is wrong...    
-:dizzy_face: I have lot's on my mind right now, and come back to it later.  
+I have lot's on my mind right now, and come back to it later.  
 ...  
 Friday night - 7PM, it is time to solve this once and for all. I can either go with debug and find the wrong input, or start coding unit Test.
 Almost 300 passports, with 8 fields each... unit Test it will be, priority on the regex!  
