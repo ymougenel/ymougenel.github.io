@@ -4,7 +4,7 @@ title: kata, the Magic Square
 excerpt_separator: <!--more-->
 tags: [algorithm, python, fr]
 ---
-A new kata: the magic square!
+A new kata is released: the magic square!
 * [Description](https://blog.takima.io/quand-cest-carre-et-cest-magique-cest-un-carre-magique/)
 * [Solution]()...incomming
 <!--more-->
