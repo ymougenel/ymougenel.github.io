@@ -6,7 +6,7 @@ tags: [algorithm, python, fr]
 ---
 A new kata is released: the magic square!
 * [Description](https://blog.takima.io/quand-cest-carre-et-cest-magique-cest-un-carre-magique/)
-* [Solution]()...incomming
+* [Solution](https://blog.takima.io/quand-cest-carre-et-cest-magique-cest-un-carre-magique-solution/)
 <!--more-->
 I regularly participate on my company blog, writing blogs and katas.  
 This kata bring us back to our childhood with the Magic Square puzzle: A grid filled with integers, where each row/line/diagonal total must be equals.
