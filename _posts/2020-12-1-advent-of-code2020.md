@@ -4,10 +4,10 @@ title: Advent of Code 2020!
 excerpt_separator: <!--more-->
 tags: [algorithm, events, python3]
 ---
-Advent of code (AoC) is a coding event taking place every year on december. From the 1st of December to the 25th, a new coding puzzle is released daily.
-[Advent of code 2020](https://adventofcode.com/2020/about) starts today!  
-Advent of code (AoC) is a coding event taking place every year on december. From the 1st of December to the 25th, a new puzzle is released daily.
+[Advent of code 2020](https://adventofcode.com/2020/about) starts today! 
 
+
+Advent of code (AoC) is a coding event taking place every year on december. From the 1st of December to the 25th, a new coding puzzle is released daily.
 
 I am joining the event for the second time, and will write a bit about the coding journey...
 <!--more-->
@@ -21,19 +21,15 @@ Resolving a part unlock a star -> there are **50 stars to collect**.
 
 The complexity goes crescendo: puzzles get harder every day.
 Since the input/output are handled as plain text, challengers are free to use the language of their choice.
-# 2019
+# 2019 19/50 Stars
 Last year I only learned about the event on the 7th. I wanted to learn Python3 for a long time, therefore AoC gave me a good reason to practice.  
-As a Java programmer, python ObjectOriented programming and unitTest were familiar (Junit is quite similar). Numpi on the other hand was quite a discovery!
+As a Java programmer, python Object Oriented programming and unitTest were familiar (Junit is quite similar). Numpi on the other hand was quite a discovery!
 
-Conclusion **19/50**Stars
-
-# 2020
+# 2020 24/50
 ## Stack
 This year I will reiterate with Python! I learned few things from last year and hope it will go smoothly.
-
-<kbd>PYTHON3</kbd> <kbd>REGEX</kbd> <kbd>UNITTEST</kbd>
 ## Team
-
+I motivated few coworkers of mine, it will be nice to share and comment codes & solutions.  
 
 ## Day1: Report Repair
 ### Puzzle description ([more](https://adventofcode.com/2020/day/1))
@@ -81,7 +77,8 @@ The infinity property was in fact quite simple: since the patter repeat itself v
 A friend pointed out the limitation of Python+Recursion. After reading few articles on the tailRec subject (mostly from G.Von Rossum [1](http://neopythonic.blogspot.com/2009/04/tail-recursion-elimination.html) & [2](http://neopythonic.blogspot.com/2009/04/final-words-on-tail-calls.html)), I find my solution limited:
 The forest was only 320 squares high, what if the input was bigger... let's increase the input high & check this out...  
 * 320*3 = **960 OK**  
-* 320*4 = **1280 KO**  
+* 320*4 = **1280 KO**
+
 It match the iteration limit given by Von Rossum: __"a typical Python implementation allows 1000 recursions"__  
 I will keep it this way for now, and change it to a simple while loop if I see new bigger inputs.
 
@@ -110,12 +107,12 @@ Almost 300 passports, with 8 fields each... unit Test it will be, priority on th
 ...  
 Bingo! It was indeed the regex: they were to permissive (allowed dates like 'any_prefix_2020_&"').  
 `re.compile(r'[0-9]{4}') -> re.compile(r'^[0-9]{4}$')`  
-Well it happens when we write regex without being fully awake... well at least I now have a good test coverage :chart_with_upwards_trend: :+1:
+Well it happens when we write regex without being fully awake... well at least I now have a good test coverage!
 
 -> [see solution](https://github.com/ymougenel/advent-of-code/blob/master/2020/day4/)
 -> [see solution](https://github.com/ymougenel/advent-of-code/blob/master/2020/day4/)
 
-## Day5: Binary Boarding(+1h)
+## Day5: Binary Boarding(+1h)
 ### Puzzle description ([more](https://adventofcode.com/2020/day/5))
 We will now filter plane tickets
 Of course the seat position are not B13 but a string (ex: __FBFBBFFRLR__). 
@@ -126,3 +123,8 @@ From 128 rows, the first letter 'F' will tell to keep the first half (0-63). The
 ### Resolution
 From the bad experience from the day before, I went directly with Test Driving Development. Except from a substring range bug, and few interruptions on a saturday, it took some time but went well.  
 -> [see solution](https://github.com/ymougenel/advent-of-code/blob/master/2020/day5/)
+
+## Days 6-14
+Dealing with my job and the daily puzzle took me quite some time, therefore I won't go into details regarding each puzzle and solution.
+## Day 14+
+I stopped on the 14th day since a friend of mine was visiting. It is all for this year... see you next year for AoC 2021!
