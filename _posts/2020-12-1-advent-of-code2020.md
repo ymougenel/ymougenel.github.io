@@ -4,7 +4,7 @@ title: Advent of Code 2020!
 excerpt_separator: <!--more-->
 tags: [algorithm, events, python3]
 ---
-[Advent of code 2020](https://adventofcode.com/2020/about) starts today! 
+[Advent of code 2020](https://adventofcode.com/2020/about) starts today!
 
 
 Advent of code (AoC) is a coding event taking place every year on december. From the 1st of December to the 25th, a new coding puzzle is released daily.
@@ -62,7 +62,7 @@ The second part took me longer since I misread the description... 15min lost on 
 
 ## Day3: Toboggan Trajectory (-10min)
 ### Puzzle description ([more](https://adventofcode.com/2020/day/2))
-A map is given as a matrix, each '#' represents a tree. 
+A map is given as a matrix, each '#' represents a tree.
 ![list comprehension first implem](../assets/advent_of_code2020/day3_2020.png)
 *Note:* The arrow means that the columns repeats themselves infinitely (seems complicated, I will deal with it later)
 Given an initial position and direction, how many tree will we encounter.
@@ -82,7 +82,7 @@ The forest was only 320 squares high, what if the input was bigger... let's incr
 It match the iteration limit given by Von Rossum: __"a typical Python implementation allows 1000 recursions"__  
 I will keep it this way for now, and change it to a simple while loop if I see new bigger inputs.
 
-## Day4: Passport Processing(~1h)
+## Day4: Passport Processing(~1h)
 ### Puzzle description ([more](https://adventofcode.com/2020/day/4))
 Today's puzzle consist on validating many passport with various fields.
 ![passport fields](../assets/advent_of_code2020/day4_fields.png)
@@ -115,7 +115,7 @@ Well it happens when we write regex without being fully awake... well at least I
 ## Day5: Binary Boarding(+1h)
 ### Puzzle description ([more](https://adventofcode.com/2020/day/5))
 We will now filter plane tickets
-Of course the seat position are not B13 but a string (ex: __FBFBBFFRLR__). 
+Of course the seat position are not B13 but a string (ex: __FBFBBFFRLR__).
 The first 7 letters indicate the seat row, and the last 3 indicate the column.
 
 From 128 rows, the first letter 'F' will tell to keep the first half (0-63). The following 'B' tells to look at the last half of the previous selection, so from seat  (32 to 63)... etc
