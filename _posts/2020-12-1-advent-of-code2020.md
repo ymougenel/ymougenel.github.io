@@ -2,7 +2,7 @@
 layout: post
 title: Advent of Code 2020!
 excerpt_separator: <!--more-->
-tags: [algorithm, events, python3]
+tags: [algorithm, events, python]
 ---
 [Advent of code 2020](https://adventofcode.com/2020/about) starts today!
 
