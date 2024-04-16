@@ -22,7 +22,7 @@ This year, I came in with a handful of goals and minimal time to spare, and here
 I took part in the event in 2017 and wanted to give it another shot this year.
 
 # Goals for this year
-As I started a new job on September, I had limited time for this October challenge. Therefore I straight forward strategy: 
+As I started a new job on September, I had limited time for this October challenge. Therefore I went with a straight forward strategy: 
 * Finding existing OS issues that do not require a huge onboarding. 
 * Focusing on Java & Python, which are my main programming languages.
 
@@ -43,7 +43,7 @@ I immediately got inspired: I had already worked on Jenkins plugins before, and 
 2. Isolate the concerned code base . Jenkins' plugins usually works through steps. The faulty steps had to identified and fixed.
 3. Testing: I manually tested few scenarios, and added **unit tests** to avoid any further regressions.
 
-| [Github MR](https://github.com/jenkinsci/slack-plugin/pull/929) &ensp;&ensp;&ensp; | status: accepted & closed &ensp;&ensp;&ensp; | time spent: ~4 hours |
+| [Github MR](https://github.com/jenkinsci/slack-plugin/pull/929) &ensp;&ensp;&ensp; | **status:** accepted & closed &ensp;&ensp;&ensp; | **time spent:** ~4 hours |
 
 # Spring-io initializr: Synchronizing the zip file name with the artefact ID
 As I participated in an open-source coding night at my company [Takima](https://www.takima.fr/), I encountered minor issues related to the Spring Framework.  
@@ -52,18 +52,18 @@ As I participated in an open-source coding night at my company [Takima](https://
 
 After compiling a huge codebase (both start.spring.io and Initializr), fixing it implied a small refactoring in order to synchronize the naming process for both the artefactId and the zip file.
 
-| [Github MR](https://github.com/spring-io/initializr/pull/1492) &ensp;&ensp;&ensp; | status: accepted & closed &ensp;&ensp;&ensp; | time spent: ~2 hours |
+| [Github MR](https://github.com/spring-io/initializr/pull/1492) &ensp;&ensp;&ensp; | **status:** accepted & closed &ensp;&ensp;&ensp; | **time spent:** ~2 hours |
 
 # Text-finder Jenkins plugin, a translation contribution that became a fix
 Back in the old days, I started my open-source journey by doing some Jenkins plugin French translations.  
-Due to the lack of time, I decided that my last MR would be i18n and found an interesting Jenkins plugin already in English and Japanese, but not in French.
+Due to the lack of time, I decided that my last contribution would be a translation; and found an interesting [Jenkins plugin](https://github.com/jenkinsci/text-finder-plugin) already available in English and Japanese, but not in French.
 
 However, during the translation into French, I noticed that the plugin's folder structure for translations was incorrect, resulting in most of the Japanese translations being ignored.
 
 I reorganized the structure to ensure that all translations were properly incorporated.  
 It ended up taking much more time than anticipated (finding the correct structure and testing for all languages), but it ultimately proved successful.
 
-| [Github MR](https://github.com/jenkinsci/text-finder-plugin/pull/206) &ensp;&ensp;&ensp; | status: accepted & closed &ensp;&ensp;&ensp; | time spent: ~3 hours |
+| [Github MR](https://github.com/jenkinsci/text-finder-plugin/pull/206) &ensp;&ensp;&ensp; | **status:** accepted & closed &ensp;&ensp;&ensp; | **time spent:** ~3 hours |
 
 # Global summary
 
