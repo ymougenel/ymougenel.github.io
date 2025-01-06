@@ -46,7 +46,7 @@ While chatting with my colleges, three points came to me:
 * The **"with" keyword** comes handy when dealing with file (equivalent of the `try with()` java syntax): it assures the file is properly closed.
 * **List comprehension**: a marvelous syntax for iteration, I will start using it right away!
 
-![list comprehension first implem](../assets/advent_of_code2020/list_comprehension.png)
+![list comprehension first implem](../assets/advent_of_code/2020/list_comprehension.png)
 
 
 ## Day2: Password Philosophy
@@ -63,7 +63,7 @@ The second part took me longer since I misread the description... 15min lost on 
 ## Day3: Toboggan Trajectory (-10min)
 ### Puzzle description ([more](https://adventofcode.com/2020/day/2))
 A map is given as a matrix, each '#' represents a tree.
-![list comprehension first implem](../assets/advent_of_code2020/day3_2020.png)
+![list comprehension first implem](../assets/advent_of_code/2020/day3_2020.png)
 *Note:* The arrow means that the columns repeats themselves infinitely (seems complicated, I will deal with it later)
 Given an initial position and direction, how many tree will we encounter.
 
@@ -85,7 +85,7 @@ I will keep it this way for now, and change it to a simple while loop if I see n
 ## Day4: Passport Processing(~1h)
 ### Puzzle description ([more](https://adventofcode.com/2020/day/4))
 Today's puzzle consist on validating many passport with various fields.
-![passport fields](../assets/advent_of_code2020/day4_fields.png)
+![passport fields](../assets/advent_of_code/2020/day4_fields.png)
 
 ### Resolution
 I struggled a bit the puzzle input, and went with a basic loop/string concatenation.
