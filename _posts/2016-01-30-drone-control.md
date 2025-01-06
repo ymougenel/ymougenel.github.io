@@ -6,10 +6,11 @@ tags: [drone, android, algorithm]
 ---
 
 Our last engineering school project: control a flying drone through voice recognition
-<!--more-->
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vLJ9Lv9Z9DQ">
 </iframe>
+
+<!--more-->
 
 Through an android application built for the project, an user can give pre-defined voice orders to the drone. 
 Those orders are computed by a speech recognition algorithm established for the project. 
