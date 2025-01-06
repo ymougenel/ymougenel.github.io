@@ -4,17 +4,17 @@ title: Exploring Open Source at Capitole du Libre
 excerpt_separator: <!--more-->
 tags: [Talk, Kubernetes, Devops, Open-Source]
 ---
-The **Capitole du Libre** is an incredible annual event that brings together open-source and free software enthusiasts from all walks of life. 
+**Capitole du Libre** is an incredible annual event bringing together open-source and free software enthusiasts.
 <img src="https://capitoledulibre.org/img/logo-capitoledulibre.png" alt="capitol du libre title and logo" />
 As a long-time attendee, I’ve had the privilege of immersing myself in a community driven by a shared passion for open technologies.
 Over the years, I’ve attended inspiring talks, exchanged ideas with like-minded individuals, and engaged in deep discussions with representatives from organizations like Wikipedia, Framasoft, and Firefox.
 
 This year, I decided to take my involvement to the next level. 
-With the support and partnership of my friend Mathieu, we stepped up to present two talks at this year’s conference. 
+With the support and partnership of my friend Mathieu, we stepped up to present two talks. 
 These presentations are close to my heart and reflect our shared dedication to open-source principles and tools.
-Let me introduce the two topics we’ll be discussing:
+Let me introduce the two topics:
 <!--more-->
-1. **Kubernetes and Containers: The Hidden Iceberg Beneath**
+1. **Kubernetes and Containers: The Hidden Iceberg Beneath** ([link](https://cfp.capitoledulibre.org/cdl-2024/talk/EYLWXN/))
 
 Kubernetes is often heralded as the gold standard for container orchestration. 
 However, it's essential to recognize that Kubernetes is merely the tip of the iceberg in the vast sea of open-source container technologies. 
@@ -24,7 +24,7 @@ In this session, we aim to take the audience on a deep dive "below the surface" 
 We'll explore the critical building blocks that enable containers to function, from the kernel-level mechanisms in Linux to the variety of runtime alternatives that exist beyond the default standards. 
 By shedding light on these often-overlooked components, we hope to equip attendees with a better understanding of the architecture and flexibility available within the container ecosystem.
 
-2. **DevOps: Choosing a Free and Open-Source Stack for Production**
+2. **DevOps: Choosing a Free and Open-Source Stack for Production** ([link](https://cfp.capitoledulibre.org/cdl-2024/talk/WVCNGH/))
 
 Even for personal or small-scale projects, adopting DevOps principles can transform how we collaborate, deploy, and manage applications. By fostering collaboration, accelerating deployments, and automating workflows, DevOps enables us to deliver more reliable applications efficiently.
 
